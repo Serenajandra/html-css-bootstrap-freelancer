@@ -140,3 +140,14 @@ a{
  .pink{
     background-color:#ccb2a3;
  }
+
+ /* ABOUT-SECTION */
+ .about{
+    background-color: var(--watergreen);
+    width: 100%;
+    /* DEBUG */
+    min-height: 400px;
+ }
+
+ /* CONTACT-SECTION */
+ 
