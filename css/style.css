@@ -1,0 +1,73 @@
+
+/* PALETTE */
+:root{
+ 
+ --watergreen: #1abc9c;
+ --header-blue: #2c3e50;
+ --card-red: #ba4b63;
+ --card-watergreen:#1ea4b6;
+ --card-lightblue:#1c83c1;
+ --card-blue:#0e38b5;
+ --card-pink:#ccb2a3;
+ --footer-blue:#3a546d;
+}
+
+/* COMMONS */
+
+img{
+ max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+}
+
+
+/* UTILITIES */
+.dsplay{
+    list-style-type: none;
+}
+
+.dsplay-none{
+    display: none;
+}
+
+
+/* DEBUGS */
+[class*="col-"]{
+    border: 1px solid black;
+}
+
+/* HEADER */
+.header-bg{
+    background-color: var(--header-blue);
+    width: 100%;
+    height: 60px;
+}
+.hamburger-menu{
+    border: 1px solid white;
+    border-radius: 25%;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    width: 100%;
+    background-color: var(--watergreen);
+
+    /* DEBUG */
+    min-height: 250px;
+}
+
+.jumbo-img{
+    /* DEBUG */
+    height: 150px;
+    background-color: bisque;
+}
+
+/* CARDS-SECTION */
+.card{
+
+    /* DEBUG */
+}
