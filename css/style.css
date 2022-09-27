@@ -92,4 +92,51 @@ a{
 .card{
 
     /* DEBUG */
+    height: 150px;
+    
 }
+.star-container-dark::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color:black;
+    left:25%;
+    bottom: 50%;
+    height: 3px;
+    width: 20%;
+}
+.star-container-dark::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color:black;
+    right:25%;
+    bottom: 50%;
+    height: 3px;
+    width: 20%;
+}
+
+
+.red{
+    background-color: #ba4b63;
+}
+
+ .watergreen{
+    background-color:#1ea4b6;
+ }
+
+ .black{
+    background-color: black;
+ }
+ 
+ .lightblue{
+    background-color:#1c83c1;
+ }
+
+ .blue{
+    background-color:#0e38b5;
+ }
+
+ .pink{
+    background-color:#ccb2a3;
+ }
