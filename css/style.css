@@ -149,5 +149,24 @@ a{
     min-height: 400px;
  }
 
- /* CONTACT-SECTION */
+ /* CONTACT-ME-SECTION */
+ .contact-me{
+    background-color:gainsboro;
+
+    /* DEBUG */
+    min-height: 400px;
+ }
+
+ /* FORM-SECTION */
+ .form{
+
+    /* DEBUG */
+    min-height: 400px;
+   
+ }
+
+ /* FOOTER */
+ .copyright{
+    background-color: var(--header-blue);
+ }
  
