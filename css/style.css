@@ -24,10 +24,20 @@ a{
     margin-right: 1em;
 }
 
+/* UTILITIES */
+
 .ms_small-container{
     width: 60%;
     margin: 0 auto;
  }
+
+.ms_color{
+    color: #1abc9c;
+    }
+
+    .ms_bg-color{
+        background-color: #1abc9c;
+        }
 
 .dsplay-none{
     display: none;
@@ -163,6 +173,3 @@ a{
     background-color: var(--header-blue);
  }
 
- .ms_color{
- color: #1abc9c;
- }

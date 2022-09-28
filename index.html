@@ -58,7 +58,7 @@
             <!-- /Jumbotron -->
 
             <!-- Cards-section -->
-            <section class="cards">
+            <section class="cards m-5">
                 <h3 class="text-center mt-4">PORTFOLIO</h3>
                 <div class="col-12 position-relative ">
                     <div class="star-container-dark text-center">
@@ -106,7 +106,7 @@
                 </div>
             </section>
         <!-- /Cards-section -->
-            <section class="about m-3 p-4 text-white">
+            <section class="about m-3 p-5 text-white">
                 <h3 class="text-center">ABOUT</h3>
                 <div class="col-12 position-relative ">
                     <div class="star-container text-center">
@@ -130,15 +130,41 @@
             <!-- /Cards-section -->
 
             <!-- Contact-me-section -->
-            <section class="contact-me bg-light">
-                <div class=" ms_small-container container-sm">
+            <section class="contact-me bg-light m-5">
+                <div class="ms_small-container container-sm">
                     <h3 class="text-center">CONTACT ME</h3>
                     <div class="col-12 position-relative ">
                         <div class="star-container-dark text-center">
                            <i class="fa-solid fa-star text-black text-center"></i>
                         </div>
                     </div>
-                    <div class="form"></div>
+                    <div class="">
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label mb-0">Name</label>
+                                <input type="text" class="form-control border border-top-0 border-left-0 border-right-0" id="name" aria-describedby="">
+                            </div>
+                
+                            <div class="mb-3">
+                              <label for="email-address" class="form-label mb-0">Email address</label>
+                              <input type="email" class="form-control border border-top-0 border-left-0 border-right-0" id="email-address" aria-describedby="">
+                            </div>
+                
+                            <div class="mb-3">
+                              <label for="phone-number" class="form-label mb-0">Phone Number</label>
+                              <input type="number" class="form-control border border-top-0 border-left-0 border-right-0" id="phone-number">
+                            </div>
+                
+                            <div class="mb-3">
+                               <label for="message" class="form-label mb-0">Message</label>
+                               <textarea rows="8" cols="50" name="comment" form="usrform" class="form-control border border-top-0" id="message"></textarea>
+                            </div>
+                
+                            <button type="submit" class="btn ms_bg-color">send</button>
+                          
+                        </form>
+                    </div>
                 </div>
             </section>
             <!-- /contact-me-section -->
