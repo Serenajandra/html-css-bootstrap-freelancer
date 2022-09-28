@@ -24,11 +24,10 @@ a{
     margin-right: 1em;
 }
 
-
-/* UTILITIES */
-.dsplay{
-    list-style-type: none;
-}
+.ms_small-container{
+    width: 60%;
+    margin: 0 auto;
+ }
 
 .dsplay-none{
     display: none;
@@ -144,9 +143,9 @@ a{
  .about{
     background-color: var(--watergreen);
     width: 100%;
-    /* DEBUG */
-    min-height: 400px;
  }
+
+
 
  /* CONTACT-ME-SECTION */
  .contact-me{
@@ -165,7 +164,24 @@ a{
  }
 
  /* FOOTER */
+
+.footer_top{
+    background-color: var(--footer-blue);
+    color: white;
+}
+
  .copyright{
     background-color: var(--header-blue);
  }
  
+ footer li{
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0.7rem;
+    margin: 0.5rem;
+ }
+ 
+ .ms_color{
+ color: #1abc9c;
+ }
