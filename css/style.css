@@ -35,9 +35,9 @@ a{
 
 
 /* DEBUGS */
-[class*="col-"]{
+/* [class*="col-"]{
     border: 1px solid black;
-}
+} */
 
 /* HEADER */
 .header-bg{
@@ -45,6 +45,7 @@ a{
     width: 100%;
     height: 60px;
 }
+
 .hamburger-menu{
     border: 1px solid white;
     border-radius: 25%;
@@ -54,12 +55,6 @@ a{
 .jumbotron{
     width: 100%;
     background-color: var(--watergreen);
-
-    /* DEBUG */
-    min-height: 250px;
-}
-
-.jumbo-img{
 }
 
 .star-container::before{
@@ -85,14 +80,6 @@ a{
 
 
 /* CARDS-SECTION */
-.card{
-
-    /* DEBUG */
-    width: 100%;
-    /* DEBUG */
-    min-height: 200px;
-    
-}
 .star-container-dark::before{
     content: "";
     display: inline-block;
@@ -145,23 +132,13 @@ a{
     width: 100%;
  }
 
-
-
  /* CONTACT-ME-SECTION */
  .contact-me{
     background-color:gainsboro;
-
-    /* DEBUG */
-    min-height: 400px;
  }
 
  /* FORM-SECTION */
- .form{
 
-    /* DEBUG */
-    min-height: 400px;
-   
- }
 
  /* FOOTER */
 
@@ -169,19 +146,23 @@ a{
     background-color: var(--footer-blue);
     color: white;
 }
-
- .copyright{
-    background-color: var(--header-blue);
- }
  
  footer li{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
-    padding: 0.7rem;
+    padding: 0.4rem;
     margin: 0.5rem;
  }
+
  
+ /* FOOTER_BOTTOM */
+ .copyright{
+    background-color: var(--header-blue);
+ }
+
  .ms_color{
  color: #1abc9c;
  }
