@@ -61,9 +61,6 @@ a{
 }
 
 .jumbo-img{
-    /* DEBUG */
-    height: 150px;
-    background-color: bisque;
 }
 
 .star-container::before{
@@ -92,7 +89,9 @@ a{
 .card{
 
     /* DEBUG */
+    width: 100%;
     height: 150px;
+    /* manca la width */
     
 }
 .star-container-dark::before{
